@@ -1,0 +1,10 @@
+<div class="header">
+    <div class="header__personal">
+        <div class="header__personal__bg"></div>
+        <div class="header__personal__msg">
+            <img src="./portrait.png" alt="">
+            <h1>LQS</h1>
+            <span>123456789123</span>
+        </div>
+    </div>
+</div>

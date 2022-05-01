@@ -1,0 +1,16 @@
+/* 页面布局 */
+.header__layout{
+    height: 149px;
+}
+
+.main__layout{
+    position: absolute;
+    top: 149px;
+    bottom: 48px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.tabbar__layout{
+    height: 48px;
+}

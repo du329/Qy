@@ -1,0 +1,25 @@
+<div class="proHeader">
+    <div id="proHeader__tab" class="proHeader__tab">
+    <span class="iconfont icon-right"></span>
+    <span class="iconfont icon-more"></span>
+    <span class="iconfont icon-collect"></span>
+</div>
+    <div class="proHeader__bg">
+        <img src="{{img}}" alt="">
+    </div>
+    <div class="proHeader__content">
+        <div class="pHc__title">
+            {{title}}
+        </div>
+        <div class="pHc__tags">
+            {{each tags}}
+            <span>{{$value}}</span>
+            {{/each}}
+        </div>
+        <div class="pHc__msg">
+            <div class="pHc__msg__yl">游览 {{vistor_counts}}</div>
+            <div class="pHc__msg__ys">已售 {{sold_counts}}份</div>
+        </div>
+    </div>
+
+</div>

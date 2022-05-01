@@ -1,0 +1,1 @@
+export const DETAILS__URL = 'https://www.imooc.com/api/mall-wepApp/details/'

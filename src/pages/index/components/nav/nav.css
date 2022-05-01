@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.nav-items{
+    width: 25%;
+    margin-bottom: 20.5px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 12px;
+}
+
+.nav-img{
+    width: 46.93133%;
+    margin-bottom: 5.5px;
+}

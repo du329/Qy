@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+}
+.main__tab{
+    width: 76px;
+    position: fixed;
+    left: 0;
+    top: 149px;
+    bottom: 0;
+    background: #FFF;
+}
+.main__content{
+    flex-grow: 1;
+    padding-left: 76px;
+}

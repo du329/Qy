@@ -1,0 +1,12 @@
+/* 占满可视区 */
+html,
+body {
+    overflow: hidden;
+    /* 隐藏滚动条，存在兼容性问题。将其加在index-page容器上 */
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+
+    /* document.documentElement.scrollTop */
+    /* document.body.scrollTop */
+}

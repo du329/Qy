@@ -1,0 +1,18 @@
+.main{
+    padding: 0 20px;
+}
+
+.main .main__bd li{
+    height: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.main .main__bd li a{
+    color: #262626; 
+}
+
+.main__bd span{
+    float: right;
+    font-size: 14px;
+}

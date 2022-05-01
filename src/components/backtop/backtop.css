@@ -1,0 +1,16 @@
+.backtop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(39, 195, 147, 0.8);
+}
+.backtop .iconfont{
+    color: #fff;
+    font-size: 30px;
+}
+.backtop-hidden{
+    display: none !important;
+}

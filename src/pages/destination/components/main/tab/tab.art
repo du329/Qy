@@ -1,0 +1,9 @@
+<ul class="main__tab__content">
+    <li class="main__tab__content--avtive" data-index="1">亚洲</li>
+    <li data-index="2">欧洲</li>
+    <li data-index="3">非洲</li>
+    <li data-index="4">大洋洲</li>
+    <li data-index="5">北美洲</li>
+    <li data-index="6">南美洲</li>
+    <li data-index="7">南极洲</li>
+</ul>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>details</title>
+</head>
+
+<body>
+    <div id="details__page" class="details__layout">
+        <!-- 头部 -->
+        <div class="proHeader__layout">
+            {{include './components/proHeader__layout/proHeader__layout.art'}}
+        </div>
+
+        <div class="proIntros__layout">
+            <h2>产品简介</h2>
+            <div class="proIntros__content">
+                {{include './components/proIntros__layout/proIntros__layout.art'}}
+            </div>
+        </div>
+
+        <div class="proRefund__layout">
+            <h2>预定流程</h2>
+        </div>
+
+        <div class="proRefund__layout">
+            <h2>退款流程</h2>
+            <div class="proRefund__content">
+                {{include './components/proRefund__layout/proRefund__layout.art'}}
+            </div>
+        </div>
+
+        <div class="proHandle__layout">
+            {{include './components/proHandle__layout/proHandle__layout.art'}}
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+<ul class="main__content__ct">
+    {{each items}}
+    <li>
+        <a href="javascript:;">
+            <img src="{{$value.url}}" alt="">
+            <span>{{$value.text}}</span>
+        </a>
+    </li>
+    {{/each}}
+</ul>

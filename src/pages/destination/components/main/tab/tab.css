@@ -1,0 +1,15 @@
+/* .main__tab__content{
+    position: fixed;
+} */
+.main__tab__content li{
+    width: 76px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main__tab__content li.main__tab__content--avtive{
+    border-left: 3px solid #BF2A2F;
+    color: #BF2A2F;
+}

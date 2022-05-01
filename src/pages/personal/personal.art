@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>个人中心</title>
+</head>
+
+<body>
+    <div id="personal__page" class="personal__layout">
+        <!-- 头部 -->
+        <header class="header__layout">
+            {{include './components/header/header.art'}}
+        </header>
+
+        <!-- 主体 -->
+        <div class="main__layout">
+            {{include './components/main/main.art'}}
+        </div>
+
+        <!-- 标签栏 -->
+        <div class="tabbar__layout">
+            <% include('../../components/tabbar/tabbar.art',{active:'personal'}) %>
+        </div>
+
+        <!-- 返回顶部 -->
+        <div class="backtop__layout">
+            <!-- {{include '../../components/backtop/backtop.art'}} -->
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

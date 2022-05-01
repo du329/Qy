@@ -1,0 +1,19 @@
+<div class="main">
+    <ul class="main__bd">
+        <li class="main__bd__li"><a href="javascript:;">
+            我的行程计划<span>></span>
+        </a></li>
+        <li class="main__bd__li"><a href="javascript:;">
+            我的收藏<span>></span>
+        </a></li>
+        <li class="main__bd__li"><a href="javascript:;">
+            售后与客服<span>></span>
+        </a></li>
+        <li class="main__bd__li"><a href="javascript:;">
+            我的优惠卷<span>></span>
+        </a></li>
+        <li class="main__bd__li"><a href="javascript:;">
+            我的常用旅游管理<span>></span>
+        </a></li>
+    </ul>
+</div>

@@ -1,0 +1,26 @@
+.main__content__ct{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 0;
+}
+.main__content__ct li{
+    position: relative;
+    padding: 0px 0 20px 20px;
+    width: 50%;
+}
+.main__content__ct li img{
+    width: 100%;
+}
+
+.main__content__ct li span{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 20px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(0 0 0 / 40%);
+}

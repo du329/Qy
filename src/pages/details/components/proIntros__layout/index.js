@@ -1,0 +1,1 @@
+import './proIntros__layout.css'

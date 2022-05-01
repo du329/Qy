@@ -1,0 +1,18 @@
+.details__layout{
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+.proHeader__layout,
+.proIntros__layout,
+.proRefund__layout{
+    margin-bottom: 40px;
+}
+
+.proIntros__layout h2,
+.proHandle__layout h2,
+.proRefund__layout h2{
+    padding-left: 14px;
+    margin-bottom: 30px;
+    border-left: 6px solid #BF2A2F;
+}
